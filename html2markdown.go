@@ -23,9 +23,11 @@ var closeTag = map[string]string{
 	"dfn":    "_",
 	"var":    "_",
 	"cite":   "_",
-	"br":     "\n",
+	"br":     "\n  ",
 	"span":   "",
 	"small":  "",
+	"sub":    "",
+	"sup":    "",
 }
 
 var blockTag = []string{
